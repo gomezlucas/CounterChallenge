@@ -17,15 +17,15 @@ La fecha es 20 de marzo de 2015, trabajando en Reddit se le ocurre como broma de
 
 El contador desciende de 60 segundos a 0 y solo se resetea si alguien con la página abierta presiona el botón. Solo se pude presionar una vez por usuario y cuando un usuario lo presiona le queda asignado como recuerdo un color en función de esta tabla.
 
-> Time clicked    Color
-> 60-52s          Purple
-> 51-42s          Blue
-> 41-32s          Green
-> 31-22           Yellow
-> 21-12s          Orange
-> 11-0s           Red
-> Not clicked     Grey
-> Not Able to     White
+-> Time clicked    Color
+-> 60-52s          Purple
+-> 51-42s          Blue
+-> 41-32s          Green
+-> 31-22           Yellow
+-> 21-12s          Orange
+-> 11-0s           Red
+-> Not clicked     Grey
+-> Not Able to     White
 
 ## Se pide
 
@@ -46,8 +46,8 @@ Que la página sea bella.
 ## Adicionales
 De manera adicional se podrá desarrollar cualquiera de los siguientes puntos:
 
-[ ] Utilizar Angular 2+ como framework. Se puede usar Angular Material como libreria de UX.
-[ ] Sumar visualizaciones para los distintos eventos que ocurren de manera automática.
-[x] Sumar visualizaciones para indicar el color del usuario.
-[x] Llevar un registro de los clicks automáticos y mostrar alguna estadística o visualización relacionada.
+- [ ] Utilizar Angular 2+ como framework. Se puede usar Angular Material como libreria de UX.
+- [ ] Sumar visualizaciones para los distintos eventos que ocurren de manera automática.
+- [x] Sumar visualizaciones para indicar el color del usuario.
+- [x] Llevar un registro de los clicks automáticos y mostrar alguna estadística o visualización relacionada.
 
