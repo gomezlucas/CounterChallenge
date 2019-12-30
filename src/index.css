@@ -29,6 +29,7 @@ body {
 
 .counter {
   font-family: "digital-clock-font";
+  margin-bottom: 1.5rem;
   font-size: 8rem;
   color: #002435;
 }
