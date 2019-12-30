@@ -1,5 +1,5 @@
  
-## Tienda Dólar - Front end Developer
+# Tienda Dólar - Front end Developer
 
 
 In the project directory, you can run:
