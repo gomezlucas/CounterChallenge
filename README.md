@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ 
+## Tienda Dólar - Front end Developer
 
-## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### Tecnología a utilizar
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Un framework de front, puede ser el que desee a gusto
+- Cualquier librería que considere necesaria
+- Cualquier set de imágenes open source como puede ser Flaticon
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Problema
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+La fecha es 20 de marzo de 2015, trabajando en Reddit se le ocurre como broma de "April fools day" realizar sacar una sección de la página que contenga un botón grande y un contador que indica una cantidad descendente de segundos. 
 
-### `npm run build`
+El contador desciende de 60 segundos a 0 y solo se resetea si alguien con la página abierta presiona el botón. Solo se pude presionar una vez por usuario y cuando un usuario lo presiona le queda asignado como recuerdo un color en función de esta tabla.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Time clicked    Color
+> 60-52s          Purple
+> 51-42s          Blue
+> 41-32s          Green
+> 31-22           Yellow
+> 21-12s          Orange
+> 11-0s           Red
+> Not clicked     Grey
+> Not Able to     White
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Se pide
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Que se realize una single page application que implemente la idea del botón considerando los siguientes aspectos:
 
-### `npm run eject`
+- El 'clickeo' del botón es una acción irreversible. Se desea evitar presiones accidentales.
+- Se pide que la single page sea minimalista.
+- Dado que es para una broma, no se debe explicar nada de como funciona el botón de manera explicita.
+- Se puede tomar decisiones de cuanta y que tipo de información contextual proveer.
+- Simular clicks de otra gente y que todo funcione de manera offline ( con alguna función de random estándar ).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## No es necesario
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Implementar networking / sockets.
+Que la página mantenga el estado en el front vía sesiones / cookies / files o cualquier otra mezcla de estrategias.
+Que la página sea bella.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Adicionales
+De manera adicional se podrá desarrollar cualquiera de los siguientes puntos:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[ ] Utilizar Angular 2+ como framework. Se puede usar Angular Material como libreria de UX.
+[ ] Sumar visualizaciones para los distintos eventos que ocurren de manera automática.
+[x] Sumar visualizaciones para indicar el color del usuario.
+[x] Llevar un registro de los clicks automáticos y mostrar alguna estadística o visualización relacionada.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
